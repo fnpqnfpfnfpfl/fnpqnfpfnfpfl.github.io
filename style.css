@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9d9d9;
+}
+
+.section {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+/* 배경색 2종 */
+.section1,
+.section2 {
+  background-color: #ffffff;
+}
+
+.main-title {background-color: bisque;
+  color: #003366; /* 글씨색 1 */
+  font-size: 40px; /* 큰 글씨 */
+  text-align: center;
+}
+
+.sub-title {background-color: rgb(228, 207, 91);
+  color: #660000; /* 글씨색 2 */
+  font-size: 25px;
+  text-align: center;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+  width: 110%;
+}
+
+.info-table th,
+.info-table td {
+  background-color: #d9d9dd;
+  border: 1px solid #020202;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.highlight-text {
+  font-size: 15px;
+  color: #ff6600;
+}
+
+.italic-text {
+  font-style: italic;
+  font-size: 15px;
+  color: #444;
+}
+
+.googleimage {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #d9d9d9;
+}
+
+.logo {
+  width: 100px;
+  margin: 10 10px;
+}
+
+.youtube {
+ width: 100%;
+ display: flex; 
+ justify-content: center;
+}
+
+p {
+ text-align: center;
+}
